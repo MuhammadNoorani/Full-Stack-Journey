@@ -1,0 +1,63 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body{
+    width: 100%;
+    height: 100%;
+}
+
+#car1{
+    width: 100px;
+    height: 120px;
+    background-color: red;
+}
+#car2{
+   position: absolute;
+   /* top: 20% left: 40% */ 
+   /* position :fixed, sticky, static(by-default)*/ 
+    width: 110px;
+    height: 90px;
+    background-color: violet;
+}
+#car3{
+    width: 130px;
+    height: 110px;
+    background-color: blue;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/* 
+
+Position Absolute:
+It refers to the element rising up, and the space of that element is empty, so other element will take the space.
+But from our point of view the element is hidden and the top is element is visble (risen one)
+
+
+Position Relative:  
+Example : 
+
+1. Take div( big sized box ), another div (another small box) under the big sized box.
+2. NOw the small box can't go out of the big box edges.
+3. Now, when I apply postiion relative, small box rises.
+4. As, the small box rises it will be free and can go out of the edges of the box.
+- But we want the box to be inside the edges even after absolute.
+
+5. Now, you want the absolute element/div(small box) to be under the big box/div. Make the big box relative
+
+-SO, you want the absolute element under which box, make that relative
+
+
+*/

@@ -1,0 +1,128 @@
+<!DOCTYPE html>   <!--Declaration that defines the language markup of the doc to be HTML-->
+<html lang="en">  <!--Root element of page-->
+<head> <!--Contains Meta data (info about the doc) and also contains style sheets -->
+    <!--Metadata is used for SEO of the the website-->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="description" content="Free Web tutorials">
+    <meta name="keywords" content="HTML,CSS,XML,JavaScript">
+    <meta name="author" content="John Doe">
+    <title>Document</title>
+</head>
+<body>
+    <h1>@Comeback Initiated</h1>
+
+    <hr>
+
+    <div>
+<p>HI How are you? Doing good!!</p>
+    <br>  <!--Line Breaks-->  
+    <p title="this is an attribute, can be seen when hovered through the para">Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis dicta assumenda ipsam voluptate pariatur animi, laboriosam neque aut quam possimus, modi ex fugit ab nihil sapiente odit est! Sit, provident!</p>
+    <br>  <!--Line Breaks--> 
+    
+  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis dicta assumenda ipsam voluptate pariatur animi, laboriosam neque aut quam possimus, modi ex fugit ab nihil sapiente odit est! Sit, provident!</p>
+  <p>Lorem ipsum dolor sit, <strong>consectetur</strong>  adipisicing elit. <em>Porro</em>, ipsum? Pariatur, quidem minima ea <mark>recusandae</mark> dolorem minus illo dicta adipisci velit ut corporis cumque, fugit at deserunt voluptate, iure possimus!</p>
+  <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Porro, ipsum? <ins>Pariatur</ins>, <span>minima ea recusandae dolorem</span>  <del>minus</del> illo dicta adipisci velit ut corporis <sup>, fugit</sup> at deserunt voluptate, iure possimus!</p>
+</div>
+
+
+<img src="banner.png" alt="Alternate description here" width="400">
+
+<a href="https:google.com" target="_blank"></a>
+<a href="#bookmark" target="_blank"></a>
+
+<p id="bookmark">This is an bookmark</p>
+
+
+<ol type="1" start="25">
+<li>List Item 01</li>
+    <ul>
+    <li>sub-list item 1</li>
+    <li>sub-list item 2</li>
+    <li>sub-list item 3</li> 
+</ul>
+<li>List item 02</li>
+</ol>
+<!--Span tags define a section of a doc inline, so after we can use css and modify accordingly-->
+<!--DIV Tag is used as containers-->
+
+
+
+<br><br>
+<!--Table-->
+<table>
+    <caption>This is a table</caption>
+<tr>
+    <th rowspan="2">Number 2 </th>
+    <td> 66554444</td>
+</tr>
+<tr>
+    <td>555-55-5</td>
+</tr>
+</tr>
+<thead>
+    <tr>
+        <th>First Name</th>
+        <th>Last Name</th>
+        <th colspan="2">Number 1</th>
+    </tr>
+</thead>
+<tbody>
+    <tr>
+        <td>Muhammad</td>
+        <td>Noorani</td>
+        <td>777-777-777</td>
+        <td>777-777-777</td>
+        <td>777-777-777</td>
+        <td>777-777-777</td>
+    </tr>
+    <tr>
+        <td>Parul</td>
+        <td>lorem epsum</td>
+        <td>777-777-777</td>
+        <td>777-777-777</td>
+        <td>777-777-777</td>
+        <td>777-777-777</td>
+        <td>777-777-777</td>
+        <td>777-777-777</td>
+    </tr>
+</tbody>
+</table>
+<br>
+<br><br><br><br><br><br>
+<hr>
+<!--Forms-->
+<form action="server.php">
+    <fieldset>
+        <legend>Personal info</legend> 
+        First Name : <br>
+        <input type="text" name="Firstname" value="" placeholder="First Name here"><br>
+        Last Name : <br>
+        <input type="text" name="Lastname" value=""><br>
+       <input type="radio" name="options"> Option 1
+       <input type="radio" name="options"> Option 2<br>
+       <input type="checkbox" name="checkbox" checked> checkbox1
+       <br><br>
+       <input type="checkbox" name="checkbox"> checkbox2
+       <input type="checkbox" name="checkbox"> checkbox3<br>
+        
+       <label for="carselect">Select:</label>
+       <select name="cars" id="luxurious" multiple>
+        <option value="BMW" selected>BMW</option>
+        <option value="Toyota">Toyota</option>
+       </select>
+    
+       
+
+       <br><br>
+        <input type="submit" value="submit"><br>
+
+         
+    </fieldset>
+</form>
+
+
+<script src="script.js"></script>
+</body>
+</html>
